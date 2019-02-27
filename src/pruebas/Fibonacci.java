@@ -16,7 +16,7 @@ public class Fibonacci {
         long r;
         long aux = 0;
 
-        for (int i = 0; i <= 20; i++){
+        for (int i = 0; i <= 40; i++){
             r = aux + f;
             System.out.println(i + ": " + r);
             aux = f;
